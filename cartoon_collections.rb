@@ -28,6 +28,5 @@ def find_valid_calls(planeteer_calls)
  
   valid_calls.map do |call|
   planeteer_calls.find{ |string| string == call }
-  return string
   end
 end
