@@ -28,7 +28,7 @@ def find_valid_calls(planeteer_calls)
  
   planeteer_calls.count do |call|
     if valid_calls.include? call
-      call
+      
     end
   end
 end
